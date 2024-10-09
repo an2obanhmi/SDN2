@@ -1,0 +1,30 @@
+/* QuestionList.css */
+.question-list {
+    width: 100%; /* Đảm bảo danh sách chiếm toàn bộ chiều ngang */
+    margin: 0; /* Xóa margin để không bị lề */
+    padding: 0; /* Xóa padding để không bị thụt vào */
+    
+}
+
+.question-list {
+    width: 100%; /* Đảm bảo từng mục chiếm toàn bộ chiều ngang */
+    display: flex; /* Sử dụng flexbox để căn chỉnh nội dung */
+    justify-content: space-between; /* Căn chỉnh nội dung hai bên */
+    align-items: center; /* Căn giữa nội dung theo chiều dọc */
+    padding: 10px; /* Khoảng cách bên trong từng mục */
+    border-bottom: 1px solid #151414; /* Đường kẻ ngăn cách giữa các câu hỏi */
+    border: 1px solid #0c0b0b;
+}
+
+.question-link {
+    text-decoration: underline; /* Gạch chân cho câu hỏi */
+    color: blue; /* Màu chữ cho câu hỏi */
+    padding: 0; /* Xóa padding để giống như một liên kết */
+    min-width: 0; /* Đảm bảo nút không chiếm không gian thừa */
+    flex-grow: 1; /* Chiếm hết không gian còn lại */
+    margin-right: 10px; /* Khoảng cách giữa câu hỏi và nút delete */
+}
+
+.delete-button {
+    color: rgb(200, 13, 13);
+}

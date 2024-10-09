@@ -1,0 +1,43 @@
+.question-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; /* Khoảng cách giữa các trường */
+    padding: 20px; /* Padding cho form */
+    width: 100%; /* Chiều rộng 100% */
+    max: width 100%;; /* Đặt chiều rộng tối đa cho form nếu cần */
+    margin: 0 auto; /* Căn giữa form */
+    background-color: rgb(46,56,86) 9; /* Màu nền cho form */
+    border-radius: 8px; /* Bo tròn các góc */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Bóng cho form */
+    margin: 0; 
+    padding: 0;
+    margin-bottom: 20px;
+}
+/* styles.css */
+
+.custom-button {
+    background-color: #3f51b5; /* Button background color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 12px; /* Padding around text */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    text-align: center; /* Center text */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.custom-button:hover {
+    background-color: #394382; /* Darker background on hover */
+}
+
+.custom-button:focus {
+    outline: none; /* Remove outline on focus */
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Đặt chiều rộng 100% cho trường */
+}
